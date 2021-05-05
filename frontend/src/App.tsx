@@ -2,7 +2,7 @@ import BarChart from "components/BarChart";
 import DataTable from "components/DataTable";
 import DonutChart from "components/DonutChart";
 
-function App() {
+export default function App() {
   return (
     <div className="container">
       <h1 className="text-primary py-3">Dashboard de Vendas</h1>
@@ -27,5 +27,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
