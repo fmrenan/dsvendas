@@ -1,3 +1,26 @@
+import { Seller } from "./seller";
+
+export interface Sale{
+  id: number
+  visited: number
+  deals: number
+  amount: number
+  date: string
+  seller: Seller
+}
+
+export interface SalePage{
+  content?: Sale[]
+  last: boolean
+  totalPages: number
+  totalElements: number
+  number: number
+  first: boolean
+  size?: number
+  numberOfElements?: number
+  empty?: boolean
+}
+
 export interface SaleSum {
   sellerName: string
   sum: number
