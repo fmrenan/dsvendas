@@ -10,9 +10,9 @@ Projeto desenvolvido na Semana Dev Superior 3.
 O DS Vendas consiste em uma aplicação de dashboard de vendas realizadas pelos vendedores, a partir do backend desenvolvido com java springboot, frontend web com react utilizando typescript.
 
 ### FrontEnd Web
-<p align="center"><img src="/readme/home.png" width="600" /></p>
+<p align="center"><img src="/readme/dashboard.png" width="600" /></p>
 
-No front end web, o usuário irá escolher os produtos dentre os disponíveis que deseja adicionar ao seu pedido.
+Na página inicial, encontrará o link para o dashboard de vendas e uma tabela com as vendas realizadas por data e vendedor, filtradas por página.
 
-<p align="center"><img src="/readme/products.png" width="600" /></p>
+<p align="center"><img src="/readme/sales.png" width="600" /></p>
 
