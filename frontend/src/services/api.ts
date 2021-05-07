@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export const api = axios.create({
-  baseURL: 'https://fmrenan-dsvendas.herokuapp.com/'
+  baseURL: process.env.REACT_APP_BACKEND_URL ??  'http://localhost:8080/'
 })
